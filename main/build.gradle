@@ -10,6 +10,7 @@ dependencies {
     compile project(':tsunami-plugin')
     compile project(':tsunami-proto')
     compile project(':tsunami-workflow')
+	compile deps.dropwizard
     compile deps.flogger
     compile deps.flogger_google_ext
     compile deps.guava
@@ -22,6 +23,7 @@ dependencies {
 
 application {
     mainClassName = 'com.google.tsunami.main.cli.TsunamiCli'
+//    mainClassName = 'com.google.tsunami.main.rest.TsunamiRest'
 }
 
 shadowJar {

@@ -27,6 +27,7 @@ subprojects {
         // All dependency versions.
         autoValueVersion = '1.7'
         classGraphVersion = '4.8.65'
+        dropwizardVersion = '2.0.17'
         errorproneVersion = '2.4.0'
         floggerVersion = '0.5.1'
         googleCloudStorageVersion = '1.103.1'
@@ -51,6 +52,7 @@ subprojects {
                 autovalue: "com.google.auto.value:auto-value-annotations:${autoValueVersion}",
                 autovalue_annotation_processor: "com.google.auto.value:auto-value:${autoValueVersion}",
                 classgraph: "io.github.classgraph:classgraph:${classGraphVersion}",
+                dropwizard: "io.dropwizard:dropwizard-core:${dropwizardVersion}",
                 errorprone: "com.google.errorprone:error_prone_annotations:${errorproneVersion}",
                 flogger: "com.google.flogger:flogger:${floggerVersion}",
                 flogger_google_ext: "com.google.flogger:google-extensions:${floggerVersion}",
